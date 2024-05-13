@@ -1,0 +1,13 @@
+Para que o programa funcione corretamente deve-se instalar o comando prompt com o seguinte comando:
+
+npm install prompt-sync
+
+Após a instalação define-se o prompt no início do arquivo .js, da seguinte forma:
+  const prompt = require('prompt-sync')({ sigint: true });
+
+Assim, será possível realizar as leituras de dados do usuário diretamente no terminal.
+
+Para executar o programa, navegue até a pasta onde ele se encontra e utilize o comando:
+
+node nomeDoArquivo.js
+  Ex: node q1.js
